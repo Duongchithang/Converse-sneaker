@@ -1,0 +1,26 @@
+.slick-prev{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: #007AFF;
+}
+.slick-next{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    z-index: 10; 
+    color: #007AFF; 
+}
+@media screen and (max-width:500px){
+    .slick-next{
+        font-size: 45px;
+    }
+    .slick-prev{
+        font-size: 45px;
+    }
+}

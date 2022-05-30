@@ -1,7 +1,43 @@
 {
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
   "dependencies": {
-    "jquery": "^3.6.0",
-    "slick-carousel": "^1.8.1",
-    "swiper": "^8.1.4"
-  }
+    "@headlessui/vue": "^1.6.0",
+    "@heroicons/vue": "^1.0.6",
+    "core-js": "^3.8.3",
+    "swiper": "^8.1.4",
+    "tw-elements": "^1.0.0-alpha12",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vue-slick-carousel": "^1.0.6",
+    "vuejs-paginate": "^2.1.0",
+    "vuejs-paginate-next": "^1.0.2",
+    "vuelidate": "^0.7.7",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
