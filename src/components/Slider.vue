@@ -1,5 +1,5 @@
 <template>
-  <div class="slider lg:mr-[75px] xs:ml-[20px] xs:mr-[20px] xs:h-[250px] lg:ml-[75px] mt-[50px] lg:h-[500px] md:h-[350px] md:mr-10 md:ml-10">
+  <div class="slider relative lg:mr-[75px] xs:ml-[20px] xs:mr-[20px] xs:h-[250px] lg:ml-[75px] mt-[50px] lg:h-[500px] md:h-[350px] md:mr-10 md:ml-10">
     <swiper :navigation="true" :modules="modules" class="mySwiper">
     <swiper-slide class="slide-item"><img class="image-slide" src="https://images.unsplash.com/photo-1594843954296-52fbba31a52f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871" alt=""></swiper-slide>
     <swiper-slide class="slide-item"><img class="image-slide" src="https://images.unsplash.com/photo-1612931795103-f6a5c4b073ae?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726" alt=""></swiper-slide>
@@ -24,7 +24,7 @@ import { Pagination, Navigation } from "swiper";
 export default {
     components:{
        Swiper,
-      SwiperSlide,
+       SwiperSlide,
     },
      setup(){
     return {

@@ -9,14 +9,12 @@
   "dependencies": {
     "@headlessui/vue": "^1.6.0",
     "@heroicons/vue": "^1.0.6",
+    "aos": "^2.3.4",
     "core-js": "^3.8.3",
     "swiper": "^8.1.4",
     "tw-elements": "^1.0.0-alpha12",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
-    "vue-slick-carousel": "^1.0.6",
-    "vuejs-paginate": "^2.1.0",
-    "vuejs-paginate-next": "^1.0.2",
     "vuelidate": "^0.7.7",
     "vuex": "^4.0.0"
   },

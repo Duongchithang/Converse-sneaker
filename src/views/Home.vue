@@ -26,18 +26,27 @@ export default {
     Loader
   },
   methods:{
- scrollToTop() {
+ scrollToTop(e) {
     window.scrollTo({
     top: 0,
-    behavior: 'smooth'
-})
+    behavior: 'smooth'})
 }
   },
   mounted(){
       var load = document.querySelector('.load')
+      var btn_scroll = document.querySelector('.btn-scroll');
+      window.onscroll = function(){
+        if(window.pageYOffset <= 500){
+           btn_scroll.style.display = 'none'
+        }
+        else{
+          btn_scroll.style.display = 'block'
+        }
+      }
      setTimeout(function(){
          load.style.display = 'none';
-     },1000)
+     },1000);
+
   }
 }
 </script>

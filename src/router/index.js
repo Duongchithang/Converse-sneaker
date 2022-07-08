@@ -10,7 +10,6 @@ import Other from  '../views/Other.vue'
 import Children from '../views/Children.vue'
 import ProductDetail from '../views/ProductDetail.vue'
 import Admin from '../views/Admin.vue'
-import Panigation from '../views/Panigation.vue'
 const routes = [
   {
     path: '/',
@@ -71,11 +70,7 @@ const routes = [
   name :'Admin',
   component: Admin
 },
-{
-  path : '/panigation',
-  name :'Panigation',
-  component: Panigation
-},
+
 ]
 
 const router = createRouter({
